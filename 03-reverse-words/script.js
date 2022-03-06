@@ -9,8 +9,8 @@
 */
 
 function reverseWords(str) {
-    const now = str.split(' ').reverse();
-    return now.join(' ');
+    const reverseStr = str.split(' ').reverse();
+    return reverseStr.join(' ');
 }
 
 // Протестируйте решение, вызывая функцию с разными аргументами:

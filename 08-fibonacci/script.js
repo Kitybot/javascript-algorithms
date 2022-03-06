@@ -12,7 +12,7 @@ function fibonacci(n) {
     let a = 0;
     let b = 1;
     for (let i = 3; i <= n; i++) {
-        let c = a + b;
+        const c = a + b;
         a = b;
         b = c;
     }

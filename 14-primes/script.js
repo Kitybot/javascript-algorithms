@@ -6,7 +6,7 @@
  * 
 */
 
-function primes(num) {
+function isPrime(n) {
   for (let i = 2; i < n; i+=1) {
     if (n%i === 0){
       return false;
@@ -15,9 +15,9 @@ function primes(num) {
   return true;
 }
 function primes(num) {
-  let res=[];
+  const res=[];
     for (let i = 2; i <= num; i+=1){
-      if (Prime(i)) {
+      if (isPrime(i)) {
         res.push(i);
       }
     }
